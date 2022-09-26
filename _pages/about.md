@@ -15,4 +15,5 @@ This is the page for the UPenn Graduate Student Logic Seminar. This page is very
 
 
 Thank you,
+
 Alvaro
