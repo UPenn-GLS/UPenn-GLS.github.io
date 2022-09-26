@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "UPenn Graduate Student Logic Seminar"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-UPenn Graduate Student Logic Seminar
+
 ------
 This is the page for the UPenn Graduate Student Logic Seminar. This page is very much under construction. Please see the Talks page for upcoming talks.
 
