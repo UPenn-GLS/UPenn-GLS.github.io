@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 
-
 ------
 This is the page for the UPenn Graduate Student Logic Seminar. This page is very much under construction. Please see the Talks page for upcoming talks.
 
@@ -17,3 +16,6 @@ This is the page for the UPenn Graduate Student Logic Seminar. This page is very
 
 Thank you,  
 Alvaro (apintado AT sas DOT upenn DOT edu)
+
+
+![Robinson, Russell, Skolem, Tarski, Turing, Zermelo](/images/RobinsonRow.png)
