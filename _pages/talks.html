@@ -6,11 +6,18 @@ author_profile: true
 ---
 
 {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html"></a></p>
-
+<p style="text-decoration: underline;"><a href="/talkmap.html">Talk Map</a></p>
 {% endif %}
+
+<h2>Recent Talks</h2>
 
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+
+<h2>Previous Years</h2>
+<ul>
+  {% for year in site.talk_years %}
+    <li><a href="/talks/{{ year }}">{{ year }}</a></li>
+  {% endfor %}
+</ul>
