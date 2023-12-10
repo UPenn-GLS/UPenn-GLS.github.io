@@ -131,7 +131,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-    years: ['2023', '2022'] # Add more years as needed
+    years: ['2022'] # Add more years as needed
 
 
 # Defaults
