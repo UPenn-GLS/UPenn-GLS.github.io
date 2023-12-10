@@ -10,13 +10,10 @@ redirect_from:
 
 
 ------
-The UPenn Graduate Logic seminar (GLoS) is a seminar for all students in the Penn community to gather and share ideas relating to mathematical logic. 
-
+The UPenn Graduate Logic Seminar (GLoS) is a seminar organized by graduate students, designed for all members of the Penn community to come together and exchange ideas pertaining to mathematical logic. All Penn students are encouraged to attend the seminar talks.
 
 <br> <br>
 
-Thank you,  
-Alvaro (apintado AT sas DOT upenn DOT edu)
 
 
 ![Robinson, Russell, Skolem, Tarski, Turing, Zermelo](/images/RobinsonRow.png)
