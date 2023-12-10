@@ -16,4 +16,4 @@ The UPenn Graduate Logic Seminar (GLoS) is a seminar organized by graduate stude
 
 
 
-![Robinson, Russell, Skolem, Tarski, Turing, Zermelo](/images/RobinsonRow.png)
+![Robinson, Russell, Skolem, Tarski, Turing, Zermelo](/images/tt.png)
