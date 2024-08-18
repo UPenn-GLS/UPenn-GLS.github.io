@@ -20,10 +20,12 @@ If you are interested in giving a talk (in person or over Zoom), then please con
 {% endfor %}
 
 <h2>Previous Semesters</h2>
-<hr> <!-- Add this line to create a horizontal line -->
+<hr>
 <ul>
-  {% for year in site.collections.talks.year %}
+  {% assign years = site.talks | map: 'year' | uniq | sort: 'reverse' %}
+  {% for year in years %}
     <li><a href="/talks/{{ year }}">{{ year }}</a></li>
   {% endfor %}
 </ul>
+
 
