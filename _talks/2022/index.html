@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Talks in 2022</h1>
+<hr>
+<ul>
+  {% for talk in site.talks %}
+    {% if talk.year == page.year %}
+      <li>
+        <a href="{{ talk.url }}">{{ talk.title }}</a>
+        <p>{{ talk.date | date: "%B %d, %Y" }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
