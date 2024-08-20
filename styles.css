@@ -53,6 +53,15 @@ header p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header::after {
+    content: "";
+    display: block;
+    width: 80%; /* Adjust the width of the line */
+    height: 1px; /* Adjust the thickness of the line */
+    background-color: #fff; /* White color for the line */
+    margin: 1rem auto 0 auto; /* Center the line and add margin to position it */
+}
+
 
 
 nav a {
@@ -96,7 +105,7 @@ h4 {
 }
 
 footer {
-    background: #4e728a;
+    background: #238a81;
     color: #fff;
     text-align: center;
     padding: 1rem;
