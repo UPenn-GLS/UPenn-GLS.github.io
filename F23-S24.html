@@ -3,66 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seminar Talks - YEAR</title>
+    <title>Penn GLoS - F23-S24</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Academic Seminar</h1>
-        <p>Talks from the Year YEAR</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="2023.html">2023</a>
-            <a href="2022.html">2022</a>
-            <!-- Add more year links as needed -->
-        </nav>
+        <div class="dropdown">
+            <button class="dropbtn">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </button>
+            <div class="dropdown-content">
+                <a href="F23-S24.html">F23-S24</a>
+                <a href="F22-S23.html">F22-S23</a>
+                <!-- Add more years as needed -->
+            </div>
+        </div>
+        <h1><a href="index.html" style="text-decoration: none; color: inherit;">Penn Graduate Logic Seminar (GLoS)</a></h1>
+        <p> Talks from Fall 2023 - Spring 2024 </p>
+
     </header>
 
     <main>
         <section class="talks">
-            <h2>YEAR Talks</h2>
 
-            <h3>Spring Semester</h3>
+            <h2>Spring Semester</h2>
             <ul>
                 <li>
-                    <h4>Title of Talk A</h4>
-                    <p><strong>Speaker:</strong> Dr. Alice Johnson</p>
-                    <p><strong>Date:</strong> March 15, YEAR</p>
-                    <p><strong>Abstract:</strong> This talk discusses the latest developments in mathematical logic, focusing on the intersection of proof theory and ordinal analysis.</p>
+                    <h3>Introduction to Proof Theoretic Forcing</h3>
+                    <p><strong>Speaker:</strong> Jin Wei</p>
+                    <p><strong>Date:</strong> May 7, 2024</p>
+                    <p><strong>Abstract:</strong> I once gave a proof theory talk to a set-theory-focused logic group. A person who clearly did not read my abstract asked which forcing notion I am gonna use and it left me speechless. Finally, I am now ready to face such challenges by talking about proof-theoretic forcing. In particular, we will investigate a forcing proof of cut elimination, inspired from the nonconstructive algebraic proof, and extract an explicit algorithm of cut elimination using Martin-Löf type theory and realizability. This can be viewed as a simple proof mining procedure on the algebraic proof of cut elimination. If we have time, we will also talk about some conservativity results in proof theory related to forcing. This talk is mainly based on Jeremy Avigad’s works.</p>
                 </li>
                 <li>
-                    <h4>Title of Talk B</h4>
-                    <p><strong>Speaker:</strong> Dr. Bob Brown</p>
-                    <p><strong>Date:</strong> April 22, YEAR</p>
-                    <p><strong>Abstract:</strong> An exploration of new techniques in computability theory, with applications to ordinal representation systems.</p>
+                    <h3>Focusing</h3>
+                    <p><strong>Speaker:</strong> Eben Blaisdell</p>
+                    <p><strong>Date:</strong> April 23, 2024</p>
+                    <p><strong>Abstract:</strong> Starting with familiar sequent systems, like classical propositional logic, we motivate a system where irreversible proof steps are postponed as long as possible. We’ll discuss connectives from several logics, classifying them based on the reversibility of their left/right rules. This classification, plus some notational bureaucracy, allows us to “focus” the proof system, naturally limiting the application of irreversible rules, vastly speeding up naive proof search. Notably, this new system is not always complete with respect to the old, though completeness is very desirable. Time permitting, we end with a survey of academic and industrial applications of focussed proof systems.</p>
                 </li>
-                <!-- Add more Spring talks as needed -->
+                <li>
+                    <h3>Rules of Inference Should Be Harmonious!</h3>
+                    <p><strong>Speaker:</strong> Oualid Merzouga</p>
+                    <p><strong>Date:</strong> April 16, 2024</p>
+                    <p><strong>Abstract:</strong> Have you ever questioned whether Modus Ponens is a valid rule of inference? While it may seem easy to add connectives or rules to a logical system, the true test lies in ensuring that they carry genuine meaning. Step into the realm of Proof-Theoretic Semantics. Forget about seeking reassurance in Model Theory, Linguistics, or programming languages; we will explore what it takes for a connective to be "self-justifying." We will delve into how the notion of harmony between introduction and elimination rules comes into play. By investigating the insights of Gentzen, Prawitz, Dummett, and Tennant, we will discover how your favorite logic is incoherent. If classical logic holds a special place in your heart and you prefer it to remain this way, the organizers recommend you steer clear of this talk!</p>
+                </li>
+                <li>
+                    <h3>Proof Theory of First-Order Lukasiewicz Logic</h3>
+                    <p><strong>Speaker:</strong> Jin Wei</p>
+                    <p><strong>Date:</strong> April 9, 2024</p>
+                    <p><strong>Abstract:</strong> Continuing the previous continuous logic talk, I will explain the syntax part of continuous logic, particularly focusing on Lukasiewicz logic. I will introduce Hilbert-style and Gentzen-style proof systems for both propositional and first-order Lukasiewicz logic and sketch completeness results and my own proof of cut elimination. Afterwards, I will talk about the current status of my research and particular problems that I am working on in this project: constructive information of the approximate Hebrand’s theorem and completeness of the hypersequent calculus.</p>
+                </li>
+                <li>
+                    <h3>Measures in Model Theory</h3>
+                    <p><strong>Speaker:</strong> Krishan Canzius</p>
+                    <p><strong>Date:</strong> April 2, 2024</p>
+                    <p><strong>Abstract:</strong> This talk will cover some applications of measures in model theory. In particular we'll discuss Keisler measures, which generalize types. We'll introduce NIP theories, and see that these theories give rise to Keisler measures which have many of the nice properties enjoyed by types in stable theories.</p>
+                </li>
+                <li>
+                    <h3>Algorithmic Information Theory and its Applications</h3>
+                    <p><strong>Speaker:</strong> Raymond Tana</p>
+                    <p><strong>Date:</strong> March 26, 2024</p>
+                    <p><strong>Abstract:</strong> Algorithmic information theory is an information theory on individual, finite objects. Starting from an effective notion of entropy or a priori probability, one may formalize notions of randomness, computational depth, stochasticity, and even statistics on individual objects. I plan to discuss a general approach to defining algorithmic entropy on a class of metric spaces, how this entropy relates to fractal geometry, as well as how algorithmic information theory — despite involving non-computable operations — still offers practical applications.</p>
+                </li>
+                <li>
+                    <h3>A Cursory Glance at Model-Theoretic Algebra</h3>
+                    <p><strong>Speaker:</strong> Andrew Kwon</p>
+                    <p><strong>Date:</strong> March 19, 2024</p>
+                    <p><strong>Abstract:</strong> It is well-known that field theory is a ripe area for model theory and algebra to interact in interesting and non-trivial ways. The class of large fields has been of recent interest: I will survey some recent results about large fields, but I will not discuss proofs. Instead, I will sketch a proof of a precursor to those results due to MacIntyre about categorical theories of fields. If time permits, I will illustrate another way that model theory and algebra interact through a new result on diophantine subsets of large fields.</p>
+                </li>
+                <li>
+                    <h3>The Law of the Excluded Middle is Not Topologically Valid</h3>
+                    <p><strong>Speaker:</strong> Alvaro Pintado</p>
+                    <p><strong>Date:</strong> March 12, 2024</p>
+                    <p><strong>Abstract:</strong> In this talk, I will give a <em>very basic</em> introduction to the topological semantics of intuitionistic propositional logic, and focus on some concrete examples to hopefully clarify the definitions. I'll briefly sketch the soundness and completeness of this semantics. While some knowledge of point-set topology is assumed, no prior understanding of formal logic is required to follow the talk.</p>
+                </li>
+                <li>
+                    <h3>Intro to Bounded Arithmetic</h3>
+                    <p><strong>Speaker:</strong> Eben Blaisdell</p>
+                    <p><strong>Date:</strong> February 27, 2024</p>
+                    <p><strong>Abstract:</strong> Bounded arithmetic extends Peano arithmetic with new function symbols and then restricts the use of quantifiers. This is arguably a natural logical description of the polynomial-time complexity class. We prove that a straightforward hierarchy of formula classes corresponds formally to the familiar polynomial hierarchy. Along the way, we make pedagogically-motivated stops at several computational formalisms and logics. Many of these formalisms are weakly equivalent, and we focus here on the equivalences near P and NP.</p>
+                </li>
+                <li>
+                    <h3>Kant as a Logician</h3>
+                    <p><strong>Speaker:</strong> Jin Wei</p>
+                    <p><strong>Date:</strong> February 6, 2024</p>
+                    <p><strong>Abstract:</strong> In the <em>Critique of Pure Reason</em>, Immanuel Kant proposes two logic systems, general logic and transcendental logic. In this framework, Kant claims that his table of judgments is “complete and entirely exhausts the entire field of pure understanding”; in contrast, modern logicians commonly consider his logics as “terrifyingly narrow-minded and mathematically trivial.” In this talk, I will briefly describe Kant’s logic systems and introduce a recent attempt to mathematically formalize them. We will realize Kant’s general logic as geometric logic, which is closely related to topos theory, and provide syntax (a sequent calculus) and semantics (inverse limit of a countable inverse system of finite models) for transcendental logic together with soundness and completeness results.</p>
+                </li>
             </ul>
+            
 
-            <h3>Fall Semester</h3>
+            <h2>Fall Semester</h2>
+
             <ul>
-                <li>
-                    <h4>Title of Talk C</h4>
-                    <p><strong>Speaker:</strong> Dr. Carol Davis</p>
-                    <p><strong>Date:</strong> October 10, YEAR</p>
-                    <p><strong>Abstract:</strong> A deep dive into set theory and the implications of large cardinal hypotheses on foundational mathematics.</p>
-                </li>
-                <li>
-                    <h4>Title of Talk D</h4>
-                    <p><strong>Speaker:</strong> Dr. David Evans</p>
-                    <p><strong>Date:</strong> November 5, YEAR</p>
-                    <p><strong>Abstract:</strong> The talk covers advanced topics in model theory, with a focus on applications in algebra and geometry.</p>
-                </li>
-                <!-- Add more Fall talks as needed -->
-            </ul>
+    <li>
+        <h3>From Löwenheim to Shelah</h3>
+        <p><strong>Speaker:</strong> Krishan Canzius</p>
+        <p><strong>Date:</strong> December 11, 2023</p>
+        <p><strong>Abstract:</strong> A major aim of model theory in the past 50 years has been to find "dividing lines" - properties which determine whether a theory is "tame" or "wild." Stability is perhaps the best known of these dividing lines, but there are many more. In this talk we'll discuss the history of this program, describe its aims in more detail, and determine to what extent it can be counted as a success.</p>
+    </li>
+    <li>
+        <h3>Verifying Lean in ZFC: How the Turn Tables (2/2)</h3>
+        <p><strong>Speaker:</strong> Jin Wei</p>
+        <p><strong>Date:</strong> December 4, 2023</p>
+        <p><strong>Abstract:</strong> In this second part, we will investigate the foundation of Lean, namely Calculus of Constructions (CoC) plus inductive types and proof irrelevance. I will present axioms and rules of CoC, which are surprisingly very few, and see how everything is constructed in a very elegant way. We will talk about impredicativity of the Proposition universe and see how this distinguishes CoC from the usual Martin-Löf type theory and why it leads to proof irrelevance in a very natural way. Meanwhile, we will illustrate these features with some concrete examples in Lean. After the introduction, we will construct a proof-irrelevance model of CoC in ZFC with a large cardinal axiom. This will prove that Lean is as consistent as ZFC plus existence of infinitely many large cardinals, modulo the obvious assumption that the actual implementation of Lean in computers is bug-free. If we have time, we will also talk about various consequences of proof irrelevance in Lean, such as undecidability of definitional equality and incompatibility with Homotopy Type Theory. The goal of this talk is to convey why I think CoC is an awesome foundation of mathematics on its own, regardless of the success of Coq and Lean as proof assistants.</p>
+    </li>
+    <li>
+        <h3>The Effective Topos</h3>
+        <p><strong>Speaker:</strong> Anthony Agwu</p>
+        <p><strong>Date:</strong> November 27, 2023</p>
+        <p><strong>Abstract:</strong> The Effective Topos is an important model of constructive higher order logic as it is the first example of an elementary topos that internally is constructive and is not a Grothendieck topos; in fact it doesn't even have countable limits and colimits. The Effective Topos is built out of the theory of partial recursive functions. As such, it is a model of recursive mathematics. However, the Effective Topos has some peculiar properties. In this talk, I will briefly talk about the construction of the Effective Topos and a few interesting facts about it.</p>
+    </li>
+    <li>
+        <h3>From L to Ultimate L</h3>
+        <p><strong>Speaker:</strong> The Gia</p>
+        <p><strong>Date:</strong> November 13, 2023</p>
+        <p><strong>Abstract:</strong> When Gödel constructed L, the inner model of constructible set, he thought that V=L would make the set-theoretic world much nicer and simpler to understand. Unfortunately, there were too many limitations in L that Gödel's belief was short-lived. As it turns out, L cannot even admit large cardinal hypotheses like measurable cardinal. The Ultimate-L program strives to extend L to include those large cardinals, and it seems like the end is in sight, with the discovery that supercompact cardinal is enough. In this talk, we will focus on several key ideas and questions that motivate the program.</p>
+    </li>
+    <li>
+        <h3>Verifying Lean in ZFC: How the Turn Tables (1/2)</h3>
+        <p><strong>Speaker:</strong> Jin Wei</p>
+        <p><strong>Date:</strong> November 6, 2023</p>
+        <p><strong>Abstract:</strong> The interactive theorem prover Lean has drawn huge attention among mathematicians over the past few years. The idea is to write math proofs in this software and it will verify proofs for you. But can we really trust Lean? How exactly does Lean work? I will introduce Lean and then talk about the internal logic system of Lean in a series of two talks. In this first talk, I will demonstrate how to do math in Lean. In particular, we will explore the ring theory section in Mathlib, make sense of some basic definitions (some of them look weird at first glance), and prove some easy theorems in Lean together! We will also make use of some recent tools available to Lean, such as ChatGPT and Paperproof. No prerequisite is needed and all who are curious are welcome!</p>
+    </li>
+    <li>
+        <h3>Exploring Equality in Mathematics - A Type-Theoretic Perspective</h3>
+        <p><strong>Speaker:</strong> Oualid Merzouga</p>
+        <p><strong>Date:</strong> October 30, 2023</p>
+        <p><strong>Abstract:</strong> Identity, a foundational concept in mathematics, is perceived through diverse lenses across various fields. This talk delves into the intricate realm of this relation, focusing on a type-theoretic approach. Specifically, we will axiomatize equality and shed light on the enigmatic concept of "path induction". The pursuit of axiomatizing equality, though noble, reveals itself as a formidable challenge, if not an impossible endeavor. At its core, this predicament emerges from the existence of two distinct yet non-equivalent notions of equality. It's akin to the surprise of expecting one child but giving birth to twins—loved equally, yet undeniably distinct. With a critical lens, we strive to rectify this perplexing issue and propose a refined definition that harmonizes these dual conceptions.</p>
+    </li>
+    <li>
+        <h3>DPRM - Polynomials are like a Programming Language</h3>
+        <p><strong>Speaker:</strong> Alvaro Pintado</p>
+        <p><strong>Date:</strong> October 16, 2023</p>
+        <p><strong>Abstract:</strong> In his renowned 1900 ICM address, Hilbert presented a set of problems, among which the 10th problem sought an algorithm to determine if a given polynomial over Z, with any number of variables, has a root in Z. This was eventually proven impossible by showing that, in some sense, polynomials over Z are a rudimentary programming language. More precisely, the Davis-Putnam-Robinson-Matiyasevich (DPRM) theorem establishes a bijective correspondence between computably-enumerable sets and sets of polynomial roots over Z. In this talk, I will briefly overview the long history to this conclusion, sketch some parts of the proof of DPRM, and say a few words about current research on variants of Hilbert's 10th problem.</p>
+    </li>
+    <li>
+        <h3>Quantitative Strength of Axioms</h3>
+        <p><strong>Speaker:</strong> Eben Blaisdell</p>
+        <p><strong>Date:</strong> October 9, 2023</p>
+        <p><strong>Abstract:</strong> Many different propositional logics fundamentally operate on the same set of connectives, from classical propositional logic to nonassociative Lambek calculus with additives to intuitionistic linear logic. Since there are finitely many connectives, there are finitely many formulas of a given size, up to renaming the propositional variables. Thus, for any size, each logic proves some finite number of these formulas. We use this notion of 'quantitative strength' of propositional logics to get a deeper handle on the relative strength of substructural logics. This talk is not mainly a substructural logic talk. After setting up the problem, the focus will be on using the programming language Maude as a tool to quickly check provability in bespoke logics in proof theory generally. We'll end by briefly discussing open questions in the area.</p>
+    </li>
+    <li>
+        <h3>Intuitionistic Logic, Fuzzy Logics, and the Modal Logic System S4</h3>
+        <p><strong>Speaker:</strong> Jin Wei</p>
+        <p><strong>Date:</strong> September 25, 2023</p>
+        <p><strong>Abstract:</strong> Since intuitionistic propositional logic (IPC) rejects the law of the excluded middle, naturally there were some attempts to relate IPC to many-valued logics. Later Gödel shows that IPC is necessarily an infinitely-truth-valued logic by means of intermediate logics. In this talk, I will introduce and present several proofs of his result, such as Heyting algebras, Kripke semantics, and cut elimination. In the second part, I will introduce the notion of provability in IPC and show its equivalence to Eben’s favorite modal logic system S4.</p>
+    </li>
+    <li>
+        <h3>The Random Graph, 0-1 Laws, and Fraïssé Theory</h3>
+        <p><strong>Speaker:</strong> Krishan Canzius</p>
+        <p><strong>Date:</strong> September 18, 2023</p>
+        <p><strong>Abstract:</strong> We'll start by considering a graph on the natural numbers first constructed by Ackermann in the 1930s. Then we'll look at a continuum sized set of randomly generated graphs. Surprisingly, all of these graphs will be isomorphic to one another and to Ackermann's graph. Using some model theory, we'll show that most large finite graphs behave the same way and that this behavior is governed by the behavior of the Random Graph. Finally, we'll cover some surprising similarities between the Random Graph and the rational numbers.</p>
+    </li>
+    <li>
+        <h3>The Continuum Hypothesis and the Perfect Set Program</h3>
+        <p><strong>Speaker:</strong> Julian Gould</p>
+        <p><strong>Date:</strong> September 11, 2023</p>
+        <p><strong>Abstract:</strong> The continuum hypothesis was the first non-trivial problem in cardinal arithmetic. In short, the continuum hypothesis is the statement that if X is an uncountably infinite subset of the reals, then X has the same cardinality as the reals. While this statement was eventually shown to be independent of the standard axioms of set theory, there were many failed proof attempts. In this talk, we will chart the history of one such attempt, sometimes dubbed the "Perfect Set Program". Since perfect sets provably have the same cardinality as the continuum, it would suffice to show that every uncountable subset of reals contains a perfect subset. While this strategy was doomed to fail, mathematicians were able to prove that a surprisingly rich collection of uncountable sets necessarily contain perfect subsets. This talk will be accessible without a background in set theory or logic. Bring $5 because there will be an opportunity to gamble a little…</p>
+    </li>
+</ul>
+
         </section>
     </main>
 
     <footer>
-        <p>  </p>
+        <p>© [Year] Penn GLoS. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
-
