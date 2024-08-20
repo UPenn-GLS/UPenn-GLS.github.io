@@ -33,7 +33,7 @@ body {
 
 
 header {
-    background: #238a81;
+    background: #4b8681;
     color: #fff;
     padding: 2rem;
     text-align: center;
@@ -99,13 +99,17 @@ li {
     border-radius: 8px;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 h4 {
     margin-bottom: 0.5rem;
     font-weight: 700;
 }
 
 footer {
-    background: #238a81;
+    background: #f4f4f4;
     color: #fff;
     text-align: center;
     padding: 1rem;
