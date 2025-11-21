@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penn GLoS - F24-S25</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="dropdown">
+            <button class="dropbtn">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </button>
+            <div class="dropdown-content">
+                <a href="F24-S25.html">F24-S25</a>
+                <a href="F23-S24.html">F23-S24</a>
+                <a href="F22-S23.html">F22-S23</a>
+                <!-- Add more years as needed -->
+            </div>
+        </div>
+        <h1><a href="index.html" style="text-decoration: none; color: inherit;">Penn Graduate Logic Seminar (GLoS)</a></h1>
+        <p> Talks from Fall 2024 - Spring 2025 </p>
+
+    </header>
+
+    <main>
+        <section class="talks">
+
+            <h2>Spring Semester</h2>
+            <ul>
+
+               <li>
+                    <h3> Random Types  </h3>  
+                    <p><strong>Speaker:</strong>   Krishan Canzius   </p>
+                    <p><strong>Date:</strong> April 28, 2025</p>
+                    <p><strong>Abstract:</strong>  This talk focuses on a paper by Kyle Gannon and James Hanson, in which they define a probability measure on the space of types over the monster model. Their goal, broadly speaking, was to determine which properties should hold of almost all randomly sampled types. We will discuss model theoretic concepts such as Keisler measures, Morley products, and almost sure theories with the goal of understanding some of their results.
+
+
+</li>
+
+
+
+		<li>
+		                    <h3> Axioms that Correspond to Structural Rules  </h3>  
+		                    <p><strong>Speaker:</strong>   Jin Wei  </p>
+		                    <p><strong>Date:</strong> April 14, 2025</p>
+		                    <p><strong>Abstract:</strong>  When studying proof systems for various logics—particularly substructural or nonclassical ones, we are naturally led to the following natural question: Which axioms, when added to a base logic, preserve the cut-freeness of the proof system? Remarkably, this question has a precise algebraic counterpart: Which varieties of pointed residuated lattices are closed under MacNeille completions? 
+		<br> <br>
+		
+		In this talk, we will explore this connection through the lens of algebraic proof theory. We will introduce the substructural hierarchy and demonstrate that the class N_2 precisely marks the expressive boundary for (intuitionistic) sequent-style calculi, while the class P_3 represents the limit for hypersequent-style. As we classify familiar axioms within the hierarchy, an open question naturally arises: what proof system corresponds to the class N_3, which includes many important axioms, such as distributivity and the Łukasiewicz axiom. 
+		
+		
+		  </p>
+		</li>
+
+		<li>
+                    <h3> Domain Theory and Denotational Semantics </h3>  
+                    <p><strong>Speaker:</strong>   Tanner Duve  </p>
+                    <p><strong>Date:</strong> April 07, 2025</p>
+                    <p><strong>Abstract:</strong>  Domain theory was introduced by Dana Scott in the 1960s, motivated by the search for a denotational semantics of the lambda calculus. Denotational semantics is concerned with the mathematical meaning of programming languages, where programs are to be interpreted as morphisms in certain categories. This talk will introduce the basic theory of domains, viewed as both order-theoretic structures and topological spaces, and explore some of their friendly properties that make them uniquely suitable for modeling computer programs. We will explore the connections between computability and continuity, and discuss the role of domains in the semantics of programming languages - in particular interpreting recursive definitions as least fixpoints. Basic concepts in order theory, category theory, and topology will be used but no advanced understanding of these is required from the audience.  </p>
+                </li>
+		    
+		<li>
+                    <h3> A General framework for mainstream logics </h3>  
+                    <p><strong>Speaker:</strong>  Oualid Merzouga </p>
+                    <p><strong>Date:</strong> March 24, 2025</p>
+                    <p><strong>Abstract:</strong>  Most of us learned in kindergarten that intuitionistic logic can be obtained from classical logic by giving up double negation elimination. A few months later, we learned that Linear logic is a pleasant system to work in as it makes the features of intuitionistic and classical logic apparent. <br> <br>
+
+Widely used logics are arguably composed of three groups ; the identity , the structural and the logical groups. A large class of logics can then be defined by variation of those rules present in the structural and logical groups. <br> <br>
+
+Proving interesting facts (cut elimination, normalization, invertibility,…) of those logics becomes redundant on an intuitive level and tedious to carry formally.<br> <br>
+
+Wouldn’t it be great to construct a general framework such that all variations can be explained ? Proving interesting facts about them would only have to be done once and for all. An attempt at deriving such a framework has been published by D. Licata, M.Shulman, and M. Riley in 2017 in , what the speaker consider, a landmark paper. <br> <br>
+
+In this talk, we will go over the main idea of the framework which relies on formalizing a concept of resource usage. Knowledge of category theory is helpful but not required. Knowledge of gentzen style sequent calculus is desired.<br> <br>
+
+The only reference used in this talk is : “A Fibrational Framework for substructural and modal logics”, by the authors mentioned above. </p>
+                </li>
+		    
+		<li>
+                    <h3> Twists and Termination: The Braid Group in Lean </h3>  
+                    <p><strong>Speaker:</strong>  Hannah Fechtner (CMU) </p>
+                    <p><strong>Date:</strong> March 03, 2025</p>
+                    <p><strong>Abstract:</strong>  Braids can be defined topologically (think: intertwined strings in space) or algebraically in terms of generators and relations. I will discuss the algebraic definition, and its formalization in Lean.
+
+The word problem in the braid group is decidable, and the larger, ongoing project is to implement a verified algorithm, following Dehornoy. I will discuss the formalization of the first major stage: defining the braid monoid and embedding it into the braid group. While formalizing the remaining portion, I noticed visual intuition sneaking into the termination/correctness proof for this algorithm. I will present a novel proof which can rescue the claim, and further include a bit of the history of the mathematics behind braids and its path to rigor.
+
+Lastly, I will briefly share a peek at a braid visualization widget-to-come, which will hopefully allow the user to generate Lean proofs by clicking and dragging strings! </p>
+                </li>
+
+		    
+		<li>
+                    <h3> An Introduction to Cubical Type Theory </h3>  
+                    <p><strong>Speaker:</strong> Carmine Ingram </p>
+                    <p><strong>Date:</strong> February 24, 2025</p>
+                    <p><strong>Abstract:</strong>  Homotopy type theory has been a hot topic for a number of years now, of interest both as a synthetic setting for  homotopy theory and for its convenient type-theoretic properties. Unfortunately, one of its central features --- the univalence axiom, which asserts that it is possible to transport equivalences between types into genuine equalities --- has long lacked a computational interpretation. This talk will summarize the fundamentals of cubical type theory, which replaces a number of primitives in homotopy type theory in order to create a type theory in which univalence is a theorem, not an axiom, and in which canonicity is restored. </p>
+                </li>
+		    
+		<li>
+                    <h3> Artin Gluing: A Semantic Approach to Logical Relations </h3>  
+                    <p><strong>Speaker:</strong> Riley Shahar </p>
+                    <p><strong>Date:</strong> February 10, 2025</p>
+                    <p><strong>Abstract:</strong>  A standard approach to proving meta-theoretic properties of a proof system or type theory is to first define a stronger dependent predicate R---often called a logical relation---by induction on syntax, and prove the desired property by showing that every well-formed term satisfies this stronger property. In categorical semantics, this technique looks like an Artin gluing of the syntactic category along a hom-functor. This talk will introduce this technique, at least in the special case of so-called "sconing," and utilize it for a categorical proof of the existence property of intuitionistic logic. </p>
+                </li>
+		
+		    
+	    	<li>
+                    <h3> Proof by Contradiction Can Be Constructive, If You Take This Simple Trick... </h3>  
+                    <p><strong>Speaker:</strong> Jin Wei </p>
+                    <p><strong>Date:</strong> January 27, 2025</p>
+                    <p><strong>Abstract:</strong>  Since Brouwer, constructivism in mathematics has been closely associated with intuitionistic logic and the BHK interpretation. Intuitionistic logic is asymmetric as it prioritizes truth over falsity by treating ¬A as A→⊥. Another source of asymmetry comes from the contraction rule where we are allowed to use assumptions arbitrarily many times while only one conclusion is derived. These cause serious difficulties in the Dialectica interpretation when extracting constructive content from mathematical proofs. In this talk, we will talk about Michael Shulman’s antithesis interpretation with affine linear logic, obtained by demanding both proofs and refutations for formulas and removing the contraction rule. We will see how classical definitions and reasoning, including proof by contradiction, can be constructivized in this setting and why affine logic could plausibly replace intuitionisitic logic as the cornerstone of constructive reasoning. </p>
+                </li>
+
+		 <li>
+                    <h3> Girard's Paradox for Set Theorists, via Hurkens </h3>  
+                    <p><strong>Speaker:</strong> Riley Shahar </p>
+                    <p><strong>Date:</strong> November 22, 2024</p>
+                    <p><strong>Abstract:</strong>  Since Brouwer, constructivism in mathematics has been closely associated with intuitionistic logic and the BHK interpretation. Intuitionistic logic is asymmetric as it prioritizes truth over falsity by treating ¬A as A→⊥. Another source of asymmetry comes from the contraction rule where we are allowed to use assumptions arbitrarily many times while only one conclusion is derived. These cause serious difficulties in the Dialectica interpretation when extracting constructive content from mathematical proofs. In this talk, we will talk about Michael Shulman’s antithesis interpretation with affine linear logic, obtained by demanding both proofs and refutations for formulas and removing the contraction rule. We will see how classical definitions and reasoning, including proof by contradiction, can be constructivized in this setting and why affine logic could plausibly replace intuitionisitic logic as the cornerstone of constructive reasoning.
+ </p>
+                </li>
+		
+		    
+		    
+		<li>
+    <h3>On the de Finetti--Hewitt--Savage--Theorem</h3>  
+    <p><strong>Speaker:</strong> Irfan Alam</p>
+    <p><strong>Date:</strong> October 18, 2024</p>
+    <p><strong>Abstract:</strong> I wrote a long preprint titled "Generalizing the de Finetti--Hewitt--Savage Theorem" (<a href="https://arxiv.org/abs/2008.08754v4" target="_blank">arXiv:2008.08754v4</a>) in 2020 (last updated in 2023), which used methods from nonstandard analysis to vastly generalize de Finetti's theorem from probability theory. Based on recommendations from the peer-review of this preprint, I recently had to create an updated shorter version consisting of the mathematical core of this work, titled "On the de Finetti--Hewitt--Savage Theorem" (accessible at this <a href="https://urldefense.com/v3/__https://drive.google.com/file/d/1udPQyOMtQXqaXzKykkeC-zD25ZbDqcEF/view?usp=sharing__;!!IBzWLUs!UopBRI272ciF970vQAfEuRVNGLvaVJxQslegxKxg3gqXUptq6YgQYzRq08ATjCCqRhhnIac1XZ8E5cIUgJDgcz8$" target="_blank">link</a>). I am aiming to talk about this work in an accessible manner. In particular, I plan to spend almost equal amounts of time on the following topics:</p>
+    <ul style="list-style-type: disc; margin-bottom: 0; margin-top: 0; padding-left: 20px;">
+        <li style="border: none;">Introduction to nonstandard analysis.</li>
+        <li style="border: none;">Review of requisite concepts from probability theory and topology; and nonstandard perspectives on those concepts.</li>
+    </ul>
+</li>
+
+			
+                <li>
+                    <h3> Towards Linear Topoi </h3>  
+                    <p><strong>Speaker:</strong> Riley Shahar </p>
+                    <p><strong>Date:</strong> September 27, 2024</p>
+                    <p><strong>Abstract:</strong> Topos theory plays a central role in geometry and categorical logic. For instance, topoi yield a natural semantic theory of intuitionistic dependent type theories. One important step in this theory is the observation that topoi are Heyting categories, i.e. that propositions in the internal logic of a topos can be refined along intuitionistjc predicates. In this talk, I will attempt to give an accessible outline of this classical story and motivate the study of "linear topoi", categories which exhibit topos-like behavior with respect to a linear internal logic. I will conclude with a discussion of some progress towards an axiomatic presentation of these categories. </p>
+                </li>
+
+                <li>
+                    <h3> Completeness of GŁ∀ </h3>  
+                    <p><strong>Speaker:</strong> Jin Wei </p>
+                    <p><strong>Date:</strong> September 20, 2024</p>
+                    <p><strong>Abstract:</strong> In this talk, I will share my most recent result on the completeness of hypersequent calculus for first-order Łukasiewicz logic. I will first provide necessary backgrounds and motivations, especially its connection to continuous model theory, and explain the story of earlier incomplete (picking my word carefully) attempts by others. Then I will present my proof in details. I will also point out three potential future research directions and share why I believe they are very exciting.
+  </p>
+                </li>
+                
+                
+                <li>
+                    <h3>Induction and coInduction formalized</h3>
+                    <p><strong>Speaker:</strong> Oualid Merzouga </p>
+                    <p><strong>Date:</strong> September 09, 2024</p>
+                    <p><strong>Abstract:</strong>  Induction is a widely recognized proof technique in mathematics. From your five-years old past friend asking, “How do you know the numbers                         don’t stop?” to a thesis topic on “How to prove that Peano Arithmetic is consistent” this technique has become and continues to be one of the most trusted tools for                             mathematicians. 
+
+                    </p> <br>
+                    
+                    <p> To investigate further this proof technique, we can formalize it within mathematics itself. We will employ category theory to find an appropriate formulation for what                             it means to prove something by induction.
+                    </p> <br>
+                    <p>
+                    This natural process will lead us to define inductive data structures and their dual, co-inductive structures. We will begin by building intuition behind these concepts                         through standard examples and conclude by embedding these ideas within category theory, enabling you to confidently respond to your past five-year-old friends:
+                    </p> <br>
+                    <p> “Of course, numbers don’t stop; they are merely the manifestation of the initial algebra for a specific endofunctor!”</p>
+                </li>
+                
+            </ul>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© [Year] Penn GLoS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
